@@ -3,17 +3,13 @@
 
 int main() {
 
-    int a;
+    char str[5];
 
-    scanf("%d", &a);
+    scanf("%s",str);
 
-    printf("%d", a % 10);
-    a /= 10;
-
-    printf("%d", a % 10);
-    a /= 10;
-
-    printf("%d", a);
+    printf("%c%c%c",str[2],str[1],str[0]);
 
     return 0;
 }
+
+//./grade.sh c
